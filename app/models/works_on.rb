@@ -1,0 +1,2 @@
+class WorksOn < ApplicationRecord
+end

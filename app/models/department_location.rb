@@ -1,0 +1,2 @@
+class DepartmentLocation < ApplicationRecord
+end
