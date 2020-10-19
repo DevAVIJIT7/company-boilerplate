@@ -50,5 +50,10 @@ group :test do
   gem 'webdrivers'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 4.0.1'
+  gem "factory_bot_rails"
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
